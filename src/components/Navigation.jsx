@@ -17,7 +17,7 @@ export default function Navigation({ authUser, signOut }) {
           <div className="navigation-item__icon">
             <BiChat />
           </div>
-          <p className="navigation-item__label">Threads</p>
+          <p className="navigation-item__label">Thread</p>
         </button>
         {authUser == null ? (
           <button
